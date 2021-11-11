@@ -1,0 +1,267 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --first-text-color: rgba(255, 255, 255, 0.6);
+  --second-text-color: #757575;
+  --third-text-color: #212121;
+  --fourth-text-color: #757575;
+  --header-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: roboto, sans-serif;
+}
+.photo-list {
+  list-style: none;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* ---------------------------------------------- HEADER ------------------------------- */
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--header-text-color);
+}
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+/* --------------------------------- HERO -------------------------- */
+.hero-button:active {
+  color: var(--accent-color);
+}
+.effect-color {
+  background-color: #2f303a;
+}
+.hero-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.effect-color {
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  color: #ffffff;
+}
+.h3-list {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-text-color);
+  font-family: Roboto;
+}
+.h1-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.p-list {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  color: var(--second-text-color);
+}
+
+/* ------------------------ ABOUT --------------------------------- */
+
+.about-as {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.about-team {
+  background-color: #f5f4fa;
+}
+.about-the-list {
+  font-weight: bold;
+  font-size: 1.16;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+.we-are-team {
+  font-weight: bold;
+  font-size: 1.16;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+.about-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.about-proffesion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.about-navigation {
+  background-color: #2f303a;
+}
+.mail2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-tel {
+  font-weight: normal;
+  font-size: 1.71;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.nav-mail {
+  font-weight: normal;
+  font-size: 1.71;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.nav-geo {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+/* !!!!!!!!!!!!!!! ---------------------- PORTFOLIO -------------------------- !!!!!!!!!!!!!!!! */
+.about-navigation1 {
+  background-color: #2f303a;
+}
+
+/* !!!!!!!!!!!!! BUTTONs !!!!!!!!!!!!! */
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.b-list:active {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+/* !!!!!!!!!!!!! PHOTOS !!!!!!!!!!!!! */
+.photo1 {
+  width: 370px;
+  height: 294px;
+}
+.photo2 {
+  width: 370px;
+  height: 294px;
+}
+.photo3 {
+  width: 370px;
+  height: 294px;
+}
+.photo4 {
+  width: 370px;
+  height: 294px;
+}
+.photo5 {
+  width: 370px;
+  height: 294px;
+}
+.photo6 {
+  width: 370px;
+  height: 294px;
+}
+.photo7 {
+  width: 370px;
+  height: 294px;
+}
+.photo8 {
+  width: 370px;
+  height: 294px;
+}
+.photo9 {
+  width: 370px;
+  height: 294px;
+}
+
+.nick {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  color: var(--third-text-color);
+}
+.idea {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--fourth-text-color);
+}
